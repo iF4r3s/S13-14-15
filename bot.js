@@ -26,7 +26,7 @@ bot13.on('message', message => {
 bot13.on('ready', () => {
   let c = bot13.guilds.get("507972785650401301").channels.find(c => c.id == "510732060571205636");
   setInterval(function() {
-    c.send("10th Lover")
+    c.send("13th Lover")
   }, 900);
 });
 
