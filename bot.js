@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const bot13 = new Discord.Client();
-const ID = '505101712839671838';
 
 bot13.on('ready', () => {
   console.log(`Starting....`);
@@ -9,7 +8,7 @@ bot13.on('ready', () => {
 
 bot13.on('message', message => {
   if(message.content.startsWith(`f-d`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send('#daily').then(msg => msg.delete(3000));
   }
 });
@@ -17,7 +16,7 @@ bot13.on('message', message => {
 
 bot13.on('message', message => {
   if(message.content.startsWith(`f-r`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send('#rep <@505101712839671838>').then(msg => msg.delete(3000));
   }
 });
@@ -36,7 +35,7 @@ bot13.on('message', message => {
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`:angry: | What do you want us to say?`);
   if(message.content.startsWith(`f13`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send(args.join(" ")).then(msg => msg.delete(3000));
   }
 });
@@ -49,7 +48,7 @@ const bot14 = new Discord.Client();
 
 bot14.on('message', message => {
   if(message.content.startsWith(`f-d`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send('#daily').then(msg => msg.delete(3000));
   }
 });
@@ -57,7 +56,7 @@ bot14.on('message', message => {
 
 bot14.on('message', message => {
   if(message.content.startsWith(`f-r`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send('#rep <@505101712839671838>').then(msg => msg.delete(3000));
   }
 });
@@ -76,7 +75,7 @@ bot14.on('message', message => {
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`:angry: | What do you want us to say?`);
   if(message.content.startsWith(`f15`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send(args.join(" ")).then(msg => msg.delete(3000));
   }
 });
@@ -89,7 +88,7 @@ const bot15 = new Discord.Client();
 
 bot15.on('message', message => {
   if(message.content.startsWith(`f-d`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send('#daily');
   }
 });
@@ -97,7 +96,7 @@ bot15.on('message', message => {
 
 bot15.on('message', message => {
   if(message.content.startsWith(`f-r`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send('#rep <@505101712839671838>');
   }
 });
@@ -116,7 +115,7 @@ bot15.on('message', message => {
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`:angry: | What do you want us to say?`);
   if(message.content.startsWith(`f-s`)){
-    if(message.author.id !== ID) return;
+    if(message.author.id !== "505101712839671838") return;
     message.channel.send(args.join(" "))
   }
 });
