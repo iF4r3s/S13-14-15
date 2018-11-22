@@ -23,7 +23,7 @@ bot13.on('message', message => {
 bot13.on('ready', () => {
   let ch = bot13.guilds.get("507972785650401301").channels.find(c => c.id == "510732060571205636");
   setInterval(function() {
-    ch.send("11th Lover")
+    ch.send("13th Lover")
   }, 900);
 });
 
@@ -59,7 +59,7 @@ bot14.on('message', message => {
 bot14.on('ready', () => {
   let ch = bot14.guilds.get("507972785650401301").channels.find(c => c.id == "510732060571205636");
   setInterval(function() {
-    ch.send("11th Lover")
+    ch.send("14th Lover")
   }, 900);
 });
 
@@ -92,10 +92,10 @@ bot15.on('message', message => {
 });
 
 
-bot12.on('ready', () => {
+bot15.on('ready', () => {
   let ch = bot15.guilds.get("507972785650401301").channels.find(c => c.id == "510732060571205636");
   setInterval(function() {
-    ch.send("12th Lover")
+    ch.send("15th Lover")
   }, 900);
 });
 
